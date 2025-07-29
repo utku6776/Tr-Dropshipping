@@ -154,7 +154,8 @@ const scrollMap = [
   { selector: '#head-but_1', target: '.slider' },
   { selector: '#head-but_2', target: '.bedenler-slider' },
   { selector: '#head-but_3', target: '.urun-cesitleri-section' },
-  { selector: '#head-but_4', target: '.contact-section' }
+  { selector: '#head-mob-but_1', target: '.mobile-product-list-section' },
+  { selector: '#head-mob-but_2', target: '.bedenler-section-mobile' },
 ];
 
 scrollMap.forEach(({ selector, target }) => {
