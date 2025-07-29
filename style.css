@@ -770,3 +770,53 @@ header{
 .site-footer{
   margin-top: 200px;
 }
+
+@media (min-width: 680px) and (max-width: 703px) {
+  .slider {
+    display: none !important;
+  }
+  .slider-wrapper {
+    display: none !important;
+  }
+  .mobile-product-list {
+    display: flex !important;
+    flex-direction: column;
+    gap: 18px;
+    padding: 12px 0;
+    margin-top: 180px;
+  }
+  .mobile-product-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 95vw;
+    margin: 0 auto;
+  }
+  .mobile-product-card img {
+    width: 120px;
+    height: auto;
+    margin-bottom: 8px;
+    border-radius: 8px;
+  }
+  .mobile-product-card h2 {
+    font-size: 1.1rem;
+    margin-bottom: 6px;
+  }
+  .mobile-product-card ul {
+    font-size: 0.9rem;
+    padding-left: 18px;
+    margin: 0;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 702px) {
+  .bedenler-section-mobile {
+    display: none !important;
+  }
+}
+
+/* FINISH */
